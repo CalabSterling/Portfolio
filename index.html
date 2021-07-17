@@ -4,217 +4,230 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <title>Sterling</title>
 </head>
 <body>
-
-<!--Navigation Bar-->
-    <nav class="navbar navbar-nav-scroll navbar-expand-lg navbar-drk bg-drk sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#about-me-section">Sterling</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about-me-section">About</a>
-              </li>
-              <li class="nav-item">
+<!--Navigation Bar Section-->
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="container navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#landing">Home</a>
+                <a class="nav-link" href="#about-me-section">About</a>
                 <a class="nav-link" href="#projects-section">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
+                <a class="nav-link" href="#contact-section">Contact</a>
+            </div>
         </div>
-      </nav>
-<br>
+    </div>
+</nav>
+<!--Landing Section-->
+<div id="landing">
+    <div id="purpTri"></div>
+    <div id="darkTri"></div>
+    <div id="mdmTri"></div>
+    <div id="lightTri"></div>
+    <div id="diamond1"></div>
+    <div id="diamond2"></div>
+    <p id="header">Sterling</p>
+</div>
 
 <!--About Me Section-->
-    <div class="container">
-        <div class="row" id="about-me-section">
-            <div class="col">
-                <h1 class="header">STERLING</h1>
+<div class="fullContainerAbout">
+<div class="container-sm">
+    <div class="row">
+        <div class="col about-me-img">
+            <img src="./portfolioElements/sterling.jpg" class="img-fluid" alt="" id="img">
+        </div>
+        <div class="col about-me-img">
+             <img src="./portfolioElements/IMG_8821.jpg" class="img-fluid" alt="" id="img">
+        </div>
+    </div>
+</div>
+
+<div class="container about-me" id="about-me-section">
+    <div class="row skill">
+        <div class="col">
+             <h3 class="header">career skills</h3>
+        </div>
+        <div class="col">
+            <p class="about-me-des">
+                The past eight years I have worked in pharmaceutical logistics in various positions from Operations to Transportation to Quality. I have managed teams from ten to forty people, improved underdeveloped processes, and coordinated with multiple department heads to increase productivity and thoroughput. 
+            </p>
+        </div>
+    </div>
+
+    <div class="row goals">
+        <div class="col" >
+            <h3 class="header">future goals</h3>
+        </div>
+        <div class="col">
+            <p class="about-me-des">
+                With an adventerous heart and mystic mind, my dreams to travel and craft you an art piece via web design is but a click away. With years of creative design with multitude of different mediums, let me help you take your webiste to the next level.
+            </p> 
+        </div>
+    </div>
+
+    <div class="row skills">
+        <div class="col" >
+            <h3 class="header">skills</h3>
+        </div>
+        <div class="col about-me-des">
+            <div class="row" id="skillset1">
+                <div class="col">HTML</div>
+                <div class="col">GitHub</div>
+            </div>
+            <div class="row" id="skillset2">
+                <div class="col">CSS</div>
+                <div class="col">Postman</div>
+            </div>
+            <div class="row" id="skillset3">
+                <div class="col">Javascript</div>
+                <div class="col"></div>
             </div>
         </div>
     </div>
-<br>
-<br>
-    <div class="container">
-        <div class="row">
-            <!--Images Section-->
-            <div class="col">
-                <img src="./portfolioElements/sterling.jpg" class="img-thumbnail" alt="">
-            </div>
-            <div class="col">
-                <img src="./portfolioElements/IMG_8803.jpg" class="img-thumbnail" alt="">
-            </div>
-            <div class="col">
-                <img src="./portfolioElements/IMG_8821.jpg" class="img-thumbnail" alt="">
-            </div>
+</div>
+</div>
+
+<!--Project Section-->
+<div id="purpTri"></div>
+<div id="darkTri"></div>
+<div id="mdmTri"></div>
+<div id="lightTri"></div>
+<div id="diamond1"></div>
+<div id="diamond2"></div>
+<div class="container" id="projects-section">
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./portfolioElements/mike.PNG" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">CSS Creature</h5>
+                  <p class="card-text">Mike from Monsters Inc. done completely with CSS.</p>
+                  <a href="https://codepen.io/calabcanon/pen/wvJqvwR" class="btn btn-primary" target="_blank">Go To Site</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./portfolioElements/staticlayout.PNG" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Static Layout</h5>
+                  <p class="card-text">Harry Potters Wizarding World website using CSS</p>
+                  <a href="https://calabsterling.github.io/staticLayout/" class="btn btn-primary" target="_blank">Go To Site</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./portfolioElements/ghibli.PNG" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Studio Ghibli Chacater Info</h5>
+                  <p class="card-text">Find out info about the Studio Ghibli chacarcters by inputing the characters name.</p>
+                  <a href="https://calabsterling.github.io/APIProject1/" class="btn btn-primary" target="_blank">Go To Site</a>
+                </div>
+              </div>
         </div>
     </div>
-<br>
-<br>
-    <div class="container about-me">
-          <div class="row skill">
-            <div class="col" style="text-align: center;">
-                <h3 class="header">career skills</h3>
-            </div>
-            <div class="col">
-                <p class="about-me-des">
-                    The past eight years I have worked in pharmaceutical logistics in various positions from Operations to Transportation to Quality. I have managed teams from ten to forty people, improved underdeveloped processes, and coordinated with multiple department heads to increase productivity and thoroughput. 
-                </p>
-            </div>
-         </div>
-<br>
-         <div class="row goals">
-            <div class="col"  style="text-align: center;">
-                <h3 class="header">future goals</h3>
-            </div>
-            <div class="col">
-                <p class="about-me-des">
-                    With an adventerous heart and mystic mind, my dreams to travel and craft you an art piece via web design is but a click away. With years of creative design with multitude of different mediums, let me help you take your webiste to the next level.
-                </p> 
-             </div>
-         </div>
-<br>
-         <div class="row skills">
-            <div class="col"  style="text-align: center;">
-                <h3 class="header">skills</h3>
-            </div>
-            <div class="col about-me-des">
-                <div class="row" id="skillset1">
-                    <div class="col">Github</div>
-                    <div class="col">HTML</div>
-                </div>
-                <div class="row" id="skillset2">
-                    <div class="col">CSS</div>
-                    <div class="col">Javascript</div>
-                </div>
-                <div class="row" id="skillset3">
-                    <div class="col">Postman</div>
-                    <div class="col">J Node</div>
-                </div>
-             </div>
-         </div>
+    <div class="space1">
+
     </div>
-<br>
-<br>
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./portfolioElements/replit Guessing Game.PNG" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Guessing Game</h5>
+                  <p class="card-text">Replit Challenge from Eleven Fifty Academy do complete a Guessing Game</p>
+                  <a href="https://replit.com/@WD89APT/WDChallenge-5-Guessing-Game-SterlingCanon#README.md" class="btn btn-primary" target="_blank">Go To Site</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./portfolioElements/crypto.PNG" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Crypto Currency</h5>
+                  <p class="card-text">Get live and historical data for crypto currency.</p>
+                  <a href="https://api-2-92047.web.app" class="btn btn-primary" target="_blank">Go To Site</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">API Project</h5>
+                  <p class="card-text">API Project Blue Badge</p>
+                  <a href="#" class="btn btn-primary" target="_blank">Go To Site</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+<div class="space1">
+
+</div>
 
 
-<!--Projects Section-->
-    <div class="container">
-        <div class="row" id="projects-section">
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./portfolioElements/mike.PNG" class="card-img-top" alt="CSS Creature Project">
-                <div class="card-body">
-                <h5 class="card-title">CSS Creature</h5>
-                <p class="card-text">Mike from Monsters Inc. built using only CSS elements.</p>
-                <a href="https://codepen.io/calabcanon/pen/wvJqvwR" class="btn btn-light" target="_blank">Go to Project</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./portfolioElements/staticlayout.PNG" class="card-img-top" alt="Static Layout Project">
-                <div class="card-body">
-                <h5 class="card-title">Static Layout</h5>
-                <p class="card-text">Harry Potters Wizarding World website using CSS</p>
-                <a href="https://calabsterling.github.io/staticLayout/" class="btn btn-light" target="_blank">Go to Project</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./portfolioElements/replit Guessing Game.PNG" class="card-img-top" alt="guessing game">
-                <div class="card-body">
-                <h5 class="card-title">Guessing Game</h5>
-                <p class="card-text">Replit Challenge from Eleven Fifty Academy do complete a Guessing Game</p>
-                <a href="https://replit.com/@WD89APT/WDChallenge-5-Guessing-Game-SterlingCanon#README.md" class="btn btn-light" target="_blank">Go to Project</a>
-                </div>
-            </div>
-        </div>
-        </div>
-    </div>
-</br>
-    <div class="container">
-        <div class="row">
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./portfolioElements/mike.PNG" class="card-img-top" alt="CSS Creature Project">
-                <div class="card-body">
-                <h5 class="card-title">Studio Ghibli Chacater Info</h5>
-                <p class="card-text">Find out info about the Studio Ghibli chacarcters by inputing the characters name.</p>
-                <a href="" class="btn btn-light">Go to Project</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./portfolioElements/staticlayout.PNG" class="card-img-top" alt="Static Layout Project">
-                <div class="card-body">
-                <h5 class="card-title">Coinlayer Exchange</h5>
-                <p class="card-text"></p>
-                <a href="https://calabsterling.github.io/staticLayout/" class="btn btn-light">Go to Project</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./portfolioElements/mike.PNG" class="card-img-top" alt="CSS Creature Project">
-                <div class="card-body">
-                <h5 class="card-title">API Project</h5>
-                <p class="card-text"></p>
-                <a href="https://codepen.io/calabcanon/pen/wvJqvwR" class="btn btn-light">Go to Project</a>
-                </div>
-            </div>
-        </div>
-        </div>
-    </div>
-            
 <!--Contact Section-->
-    <div class="container">
-        <div class="row">
-            <div class="col header">Lets Create Magic</div>
-        </div>
-        <div class="row">
-            <div class="container form-container">
-                <div class="col-4 col-form">
-                        <form action="https://formspree.io/f/xqkwdkeg" method="POST">
-                        <div class="row form-component">
-                            <label>
-                                Your email:
-                                <input type="email" name="_replyto" class="form-com-background">
-                            </label>
-                        </div>
-                        <div class="row form-component">
-                            <label>
-                                Your message:
-                                <textarea name="message" class="form-com-background"></textarea>
-                            </label>
-                        </div>
-            
-                            <!-- your other form fields go here -->
-            
-                            <button type="submit" class="form-com-background">Send</button>
-                        </form>
-                </div>
+<div class="magic">
+<div class="container" id="contact-section">
+    <div class="row">
+         <div class="col col-header">Lets Create Magic</div>
+    </div>
+</div>
+</div>
+<div class="form">
+<div class="container">
+    <div class="row">
+        <div class="container form-container">
+            <div class="col-4 col-form">
+                <form action="https://formspree.io/f/xqkwdkeg" method="POST">
+                     <div class="row form-component">
+                        <label>
+                            Your email:
+                            <input type="email" name="_replyto" class="form-com-background">
+                        </label>
+                    </div>
+                    <div class="row form-component">
+                        <label>
+                            Your message:
+                            <textarea name="message" class="form-com-background"></textarea>
+                        </label>
+                    </div>
+                        <!-- your other form fields go here -->
+                    <button type="submit" class="form-com-background">Send</button>
+                </form>
             </div>
         </div>
     </div>
-    <br>
-    <br>
+</div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="./portfolio.js"></script>
+<!--Footer Section-->
+<div id="purpTri1"></div>
+<div id="darkTri1"></div>
+<div id="mdmTri1"></div>
+<div id="lightTri1"></div>
+<div id="diamond11"></div>
+<div id="diamond21"></div>
+<div class="footer container">
+    <div class="row">
+        <div class="col">
+            ™Calab Sterling
+        </div>
+    </div>
+</div>
+
+
+<!--Script Section-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./portfolio.js"></script>
 </body>
 </html>

@@ -1,81 +1,260 @@
+/*Landing*/
 body {
-    background: url("./portfolioElements/mountain.jpg");
-    background-size: 100vw;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    color: #010b13;
+    padding: 0;
+    margin: 0;
+}
+/*Navbar*/
+.navbar {
+    background: none;
+    background-color: none;
+}
+
+/*Landing*/
+#landing {
+    align-content: center;
+    top: 0;
+}
+
+#lightTri {
+    padding: 0;
+    margin: 0;
+    border-top: 100vh solid #ffb4a2;
+    border-left: 100vw solid transparent;
+    position: absolute;
+    opacity: 60%;
+    z-index: -1;
+}
+  
+#mdmTri {
+    padding: 0;
+    margin: 0;
+    border-bottom: 100vh solid #e5989b;
+    border-right: 50vw solid transparent;
+    border-left: 50vw solid transparent;
+    opacity: 70%;
+    position: absolute;
+    z-index: -1;
+}
+  
+#darkTri {
+    padding: 0;
+    margin: 0;
+    border-top: 100vh solid #b5838d;
+    border-right: 100vw solid transparent;
+    position: absolute;
+    opacity: 80%;
+    z-index: -1;
+}
+  
+#purpTri {
+    padding: 0;
+    margin: 0;
+    border-top: 100vh solid #6d6875;
+    border-right: 50vw solid transparent;
+    border-left: 50vw solid transparent;
+    opacity: 90%;
+    position: absolute;
+    z-index: -1;
+}
+  
+#diamond1 {
+    height: 0;
+    width: 100vw;
+    border-bottom: 100vh solid white;
+    border-left: 25vw solid transparent;
+    border-right: 25vw solid transparent;
+    opacity: 20%;
+    position: absolute;
+    z-index: -1;
+}
+  
+#diamond2 {
+    height: 0;
+    width: 100vw;
+    border-top: 100vh solid black;
+    border-left: 25vw solid transparent;
+    border-right: 25vw solid transparent;
+    position: absolute;
+    opacity: 40%;
+    z-index: -1;
+}
+  
+#header {
+    position: absolute;
+    text-align: center;
+    font-size: 30vh;
+    font-family: brush script MT;
+    color: #e29578;
+    opacity: .8;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*About Me Section*/
+.about-me-img {
+    opacity: .8;
+    z-index: 0;
+}
+
+#img {
+    height: 100vh;
+}
+
+.fullContainerAbout {
+    background-color: #ffb4a2;
+    opacity: .8;
+    color: #6d6875;
 }
 
 .header {
-    font-family: "Rock Salt";
-    font-size: 6vh;
-    text-align: center;
+    text-align: right;
+    font-size: 6vw;
+    font-family: Brush Script MT;
 }
 
-.btn {
-    width: 100%;
-    opacity: 20%;
-    border-radius: none;
-}
 
-.btn:hover {
-    transition: 1.5s;
-    opacity: 100%;
-    border: solid 2px white;
-}
 
-.card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
-}
-
+/*Projects*/
 .card {
-    background-color: #4680a2;
+    background-color: #b5838d;
+    color: #ffb4a2;
 }
 
-.img-thumbnail {
-    background-color: #4680a2;
+.space1 {
+    height: 1.5vh;
 }
 
-nav, .navbar-brand, .nav-link {
-    background-color: none;
-    color: #010b13;
-}
 
-.navbar-brand:hover, .nav-link:hover {
-    color: #fff;
-}
 
-.about-me-des {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-#skillset1, #skillset2, #skillset3 {
+/*Contact*/
+.col-header {
+    font-family: Brush Script MT;
+    font-size: 10vw;
     text-align: center;
+    color: #6d6875;
 }
 
-@media only screen and (max-width: 600px) {
-    nav, body {
-        background-color: #4680a2;
-    }
-    .navbar-toggler {
-        background-color: #6b9aac;
-    }
-    
+.magic {
+    background-color: #b5838d;
 }
 
-.form-container, .col-form {
-    margin: auto;
-}
-
-.form-component {
+.form {
+    background-color: #ffb4a2;
     padding: 2vw;
 }
 
-.form-com-background {
-    background-color: #6b9aac;
-    border: none;
+button {
+    background-color: #6d6875;
     border-radius: 5px;
+    border: none;
+    font-family: Brush Script MT;
 }
+
+/*footer*/
+#lightTri1 {
+    padding: 0;
+    margin: 0;
+    border-top: 20vh solid #ffb4a2;
+    border-left: 100vw solid transparent;
+    position: absolute;
+    opacity: 60%;
+    z-index: -1;
+}
+  
+#mdmTri1 {
+    padding: 0;
+    margin: 0;
+    border-bottom: 20vh solid #e5989b;
+    border-right: 50vw solid transparent;
+    border-left: 50vw solid transparent;
+    opacity: 70%;
+    position: absolute;
+    z-index: -1;
+}
+  
+#darkTri1 {
+    padding: 0;
+    margin: 0;
+    border-top: 20vh solid #b5838d;
+    border-right: 100vw solid transparent;
+    position: absolute;
+    opacity: 80%;
+    z-index: -1;
+}
+  
+#purpTri1 {
+    padding: 0;
+    margin: 0;
+    border-top: 20vh solid #6d6875;
+    border-right: 50vw solid transparent;
+    border-left: 50vw solid transparent;
+    opacity: 90%;
+    position: absolute;
+    z-index: -1;
+}
+  
+#diamond11 {
+    height: 0;
+    width: 100vw;
+    border-bottom: 20vh solid white;
+    border-left: 25vw solid transparent;
+    border-right: 25vw solid transparent;
+    opacity: 20%;
+    position: absolute;
+    z-index: -1;
+}
+  
+#diamond21 {
+    height: 0;
+    width: 100vw;
+    border-top: 20vh solid black;
+    border-left: 25vw solid transparent;
+    border-right: 25vw solid transparent;
+    position: absolute;
+    opacity: 40%;
+    z-index: -1;
+}
+
+.footer {
+    color: white;
+    font-family: Brush Script MT;
+    font-size: 5vh;
+    text-align: center;
+}
+
+
+/*Universal*/
+
+.btn-primary {
+    background-color: #6d6875;
+    border-radius: 0px;
+    border: none;
+    width: 18rem;
+}
+
+.btn-primary:hover {
+    background-color: #e5989b;
+    font-family: Brush Script MT;
+    transition: .75s;
+}
+
+.card-body {
+    padding: 0;
+}
+
+@media screen and (max-width: 600px){
+    #header {
+        font-size: 0vh;
+    }
+    
+    #img {
+        height: 0vh;
+    }
+
+    #purpTri, #darkTri, #mdmTri, #lightTri, #diamond1, #diamond2 {
+        position: fixed;
+    }
+} 
